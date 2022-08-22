@@ -11,6 +11,12 @@
 		191CBAF928B010D800B37C74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191CBAF828B010D800B37C74 /* ContentView.swift */; };
 		191CBAFB28B010DB00B37C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191CBAFA28B010DB00B37C74 /* Assets.xcassets */; };
 		191CBAFE28B010DB00B37C74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191CBAFD28B010DB00B37C74 /* Preview Assets.xcassets */; };
+		191CBB0728B046D600B37C74 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191CBB0628B046D600B37C74 /* NetworkManagerProtocol.swift */; };
+		191CBB0928B0470400B37C74 /* WeatherNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191CBB0828B0470400B37C74 /* WeatherNetworkManager.swift */; };
+		191CBB1C28B3D58A00B37C74 /* BunnyFlowersRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191CBB1928B3D58A00B37C74 /* BunnyFlowersRegular.ttf */; };
+		191CBB1D28B3D58A00B37C74 /* BunnyFlowersOutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191CBB1A28B3D58A00B37C74 /* BunnyFlowersOutline.ttf */; };
+		191CBB1E28B3D58A00B37C74 /* BunnyFlowersShadow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191CBB1B28B3D58A00B37C74 /* BunnyFlowersShadow.ttf */; };
+		191CBB2228B3DA2600B37C74 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191CBB2128B3DA2600B37C74 /* Pacifico.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,14 @@
 		191CBAFA28B010DB00B37C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191CBAFD28B010DB00B37C74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		191CBAFF28B010DB00B37C74 /* WeatherApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeatherApp.entitlements; sourceTree = "<group>"; };
+		191CBB0628B046D600B37C74 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		191CBB0828B0470400B37C74 /* WeatherNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetworkManager.swift; sourceTree = "<group>"; };
+		191CBB1728B3D42600B37C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		191CBB1928B3D58A00B37C74 /* BunnyFlowersRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BunnyFlowersRegular.ttf; sourceTree = "<group>"; };
+		191CBB1A28B3D58A00B37C74 /* BunnyFlowersOutline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BunnyFlowersOutline.ttf; sourceTree = "<group>"; };
+		191CBB1B28B3D58A00B37C74 /* BunnyFlowersShadow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BunnyFlowersShadow.ttf; sourceTree = "<group>"; };
+		191CBB1F28B3D7C500B37C74 /* Chicago.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chicago.otf; sourceTree = "<group>"; };
+		191CBB2128B3DA2600B37C74 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +66,12 @@
 		191CBAF528B010D800B37C74 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				191CBB1728B3D42600B37C74 /* Info.plist */,
+				191CBB0528B046AA00B37C74 /* NetworkManager */,
 				191CBAF628B010D800B37C74 /* WeatherAppApp.swift */,
 				191CBAF828B010D800B37C74 /* ContentView.swift */,
 				191CBAFA28B010DB00B37C74 /* Assets.xcassets */,
+				191CBB1828B3D58A00B37C74 /* fonts */,
 				191CBAFF28B010DB00B37C74 /* WeatherApp.entitlements */,
 				191CBAFC28B010DB00B37C74 /* Preview Content */,
 			);
@@ -68,6 +85,27 @@
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
+		};
+		191CBB0528B046AA00B37C74 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				191CBB0628B046D600B37C74 /* NetworkManagerProtocol.swift */,
+				191CBB0828B0470400B37C74 /* WeatherNetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		191CBB1828B3D58A00B37C74 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				191CBB1F28B3D7C500B37C74 /* Chicago.otf */,
+				191CBB2128B3DA2600B37C74 /* Pacifico.ttf */,
+				191CBB1928B3D58A00B37C74 /* BunnyFlowersRegular.ttf */,
+				191CBB1A28B3D58A00B37C74 /* BunnyFlowersOutline.ttf */,
+				191CBB1B28B3D58A00B37C74 /* BunnyFlowersShadow.ttf */,
+			);
+			path = fonts;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -127,6 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191CBB1C28B3D58A00B37C74 /* BunnyFlowersRegular.ttf in Resources */,
+				191CBB1E28B3D58A00B37C74 /* BunnyFlowersShadow.ttf in Resources */,
+				191CBB2228B3DA2600B37C74 /* Pacifico.ttf in Resources */,
+				191CBB1D28B3D58A00B37C74 /* BunnyFlowersOutline.ttf in Resources */,
 				191CBAFE28B010DB00B37C74 /* Preview Assets.xcassets in Resources */,
 				191CBAFB28B010DB00B37C74 /* Assets.xcassets in Resources */,
 			);
@@ -140,7 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				191CBAF928B010D800B37C74 /* ContentView.swift in Sources */,
+				191CBB0728B046D600B37C74 /* NetworkManagerProtocol.swift in Sources */,
 				191CBAF728B010D800B37C74 /* WeatherAppApp.swift in Sources */,
+				191CBB0928B0470400B37C74 /* WeatherNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +318,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +346,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatherApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
