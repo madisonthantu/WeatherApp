@@ -7,8 +7,6 @@
 		<string>BunnyFlowersRegular.ttf</string>
 		<string>Pacifico.ttf</string>
 	</array>
-	<key>CFBundleIdentifier</key>
-	<string></string>
 	<key>UTImportedTypeDeclarations</key>
 	<array>
 		<dict/>
